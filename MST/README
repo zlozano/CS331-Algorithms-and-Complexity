@@ -1,0 +1,21 @@
+Author: Zac Lozano
+EID:    ztl79
+CS ID:  zlozano
+
+******** MST ********
+I implemented Prim's algorithm to find the minimum spanning tree of a graph.  Node.py is a node class which contains a collection of nodes that it points to, and a collection of the corresponding edges to those adjacent nodes.  Edge.py represents an edge and contains a weight, and a source node and a destination node.  These were useful when popping of the next cheapest frontier node in the algortihm.
+
+MST_prims.py contains the main mathod which reads the input into an adjacecny structure, creates a system of nodes and edges from the adjacency structure, and computes the MST using Prim's algorothm.
+
+******** Prim's ********
+I arbitrarily pick a starting node, collect its edges and store them in a priority queue, pop off the cheapest edge, and go to that node.  I repeat this process with each node, and I skip an edge if it creates a cycle.
+
+******** Testing ********
+I used input.txt and input2.txt to test my solution.
+
+******** Running ********
+To run the program, do the following:
+
+python MST_prims.py < input.txt
+
+The program will write the result to mst.out

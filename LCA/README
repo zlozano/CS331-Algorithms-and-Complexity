@@ -1,0 +1,24 @@
+Author:  Zac Lozano
+Email:   zlozano@utexas.edu
+EID:     ztl79
+UTCS ID: zlozano
+
+===================
+Running the program
+===================
+
+You can run:  python LCA.py < inputfile
+Where inputfile contains one test.  Output will be written to lca.out
+
+=====
+Files
+=====
+LCA.py - Main file which contains main() and the LCA algortihm
+Node.py - A class I made really quick to use a tree structure
+lca.out - output file
+tests/ - directory containing test files I used
+
+=======
+Testing
+=======
+I tested my ouput against the input in the tests/ directory.  
